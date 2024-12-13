@@ -182,73 +182,95 @@ Browse
 Scroll down to Windows  and copy the command:
 
 
-![AWS Fig22](https://github.com/user-attachments/assets/d617f5f1-48e1-4f25-8819-ff8318aa3ad8)
+![AWS Fig21](https://github.com/user-attachments/assets/183f6cb7-831a-4e1c-a7b7-fd9e0a38d453)
 
 
 Paste the command in the CMD
 
-![AWS Fig22](https://github.com/user-attachments/assets/b2dbf79a-c41a-4e69-9dcc-aaee58224310)
+![AWS Fig22](https://github.com/user-attachments/assets/d617f5f1-48e1-4f25-8819-ff8318aa3ad8)
 
 
-![AWS Fig23](https://github.com/user-attachments/assets/a91efb70-40ec-446f-9a08-3ac892e8b578)
+![AWS Fig23](https://github.com/user-attachments/assets/8c24608a-a04a-4073-9307-6b584dcfdaeb)
 
 
-![AWS Fig24](https://github.com/user-attachments/assets/cc233f98-daec-478d-9e29-b0f9081f0d50)
+![AWS Fig24](https://github.com/user-attachments/assets/d3981254-06cf-453d-9f28-703cbc7584a2)
 
-![AWS Fig26](https://github.com/user-attachments/assets/b02a9d89-2223-495d-bac9-6ac2537b9748)
+
+
+![AWS Fig26](https://github.com/user-attachments/assets/66703f73-c7f2-4cb7-b810-ebde7147da57)
+
 
 
 AWS CLI successfully installed:
 
-![AWS Fig29](https://github.com/user-attachments/assets/545fbc57-5bfc-4cf2-860b-78d3333fdeac)
+![AWS Fig29](https://github.com/user-attachments/assets/2e2d4d66-bdf5-48e9-83a0-0dd531b54d49)
 
 
 Input the Access key and Secret access key previously generated
 
 
-![AWS Fig30a](https://github.com/user-attachments/assets/e5c67662-dfd5-41de-b868-cad3f914f462)
+![AWS Fig30a](https://github.com/user-attachments/assets/e60d9b1c-1af3-4524-9844-b9015af4a91d)
+
+
 
 # 5.2 Terraform Installation
 Steps to install 
 
-![Terraform Fig1](https://github.com/user-attachments/assets/812bd1e3-18ed-463e-b29b-c18f8c54d7a2)
+![Terraform Fig1](https://github.com/user-attachments/assets/e8a92543-da73-4e0a-bef7-3920ac36fb99)
+
+
 
 Terraform downloaded for Windows from
 
-![Terraform Fig2](https://github.com/user-attachments/assets/09707c82-c02b-44c3-b4c5-d742b6769343)
+
+![BlueTeamFig2](https://github.com/user-attachments/assets/a253f29c-1a43-4416-a287-b35e1591dd84)
+
+
 
 Terraform.exe extracted and save in Created a folder named “terraform” in C:\Windows
 
-![Terraform Fig4](https://github.com/user-attachments/assets/c38a3306-6490-4a22-bcdb-454e8dd58736)
+
+![Terraform Fig4](https://github.com/user-attachments/assets/7db88af3-79c8-4559-85d4-0ae1ec26165d)
+
 
 
 5.2.2	Download Terraform configuration files https://github.com/Samuel-Adeola/PurpleTeam_Cloud_Lab
 
-![Terraform Fig5](https://github.com/user-attachments/assets/febc5ae2-7da4-47c9-9d45-36b14f8b96c1)
+![Terraform Fig5](https://github.com/user-attachments/assets/89139aa1-1b70-4b7b-aec0-917721a77b31)
 
 
-![Terraform Fig6](https://github.com/user-attachments/assets/a90ac936-d7f4-4c17-88ac-9cb500473230)
+![Terraform Fig6](https://github.com/user-attachments/assets/59d36f64-3fc8-4fda-b107-2e591341ab49)
 
 
-![Terraform Fig7](https://github.com/user-attachments/assets/61955f8b-091f-4ecb-b370-2a5ac883aab1)
+
+![Terraform Fig7](https://github.com/user-attachments/assets/9e2daff6-28b8-4fcf-8d13-cf6308d63752)
 
 
-![Terraform Fig8](https://github.com/user-attachments/assets/ac08792e-7fb6-40fc-817c-8b3fcbf32b8d)
+![Terraform Fig8](https://github.com/user-attachments/assets/58d6cb11-3696-443e-a49b-94f4fcdc4186)
 
 
-![Terraform Fig8a](https://github.com/user-attachments/assets/28b3634a-1cbc-4090-8649-510cd066f348)
+
+![Terraform Fig8a](https://github.com/user-attachments/assets/c2471837-a47f-4137-9da6-97516932693b)
+
+
+
 
  
 5.2.3	Run Terraform configuration files 
 Open cmd and navigate to terraform configuration files location
 
-![Terraform Fig9](https://github.com/user-attachments/assets/6a806b4c-cf7c-4624-90f0-5f5a4fb6b5bf)
+
+![Terraform Fig9](https://github.com/user-attachments/assets/efa51b33-f283-4a95-ad86-704e401e6e31)
+
+
+
 
 Terraform Fig 9
 
 Run terraform init and terraform apply:
 
-![Terraform Fig11a](https://github.com/user-attachments/assets/492b73bc-7a46-4851-aa0f-006c412ded88)
+![Terraform Fig11a](https://github.com/user-attachments/assets/4e0b209e-4da0-4e26-b350-78baf8b2b1f0)
+
 
 
 Machines installation completed
