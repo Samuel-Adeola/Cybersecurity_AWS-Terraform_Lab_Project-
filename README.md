@@ -1,7 +1,7 @@
 ## Title: Building a Cybersecurity Home Lab for in-depth investigation and threat hunting with AWS Services Using Terraform
 
 ## 1.0	Background Overview
-The recent development in IT industry has necessitated the use of necessary technology and tool to achieve the result. This is not limited to the use of Infrastructure as Code in automating security systems at every stages.  This project focuses on using Terraform to provision and configure a homelab environment on AWS Cloud with AWS services for in-depth investigation and threat hunting. The homelab includes two victim workstations, and one for Blue Team (defending the environment), one for Red Team (simulating attackers). The goal is to simulate cybersecurity scenarios for learning and testing incident detection, response, and remediation techniques.
+The recent development in IT industry has necessitated the use of necessary technology and tools to achieve the result. This is not limited to the use of Infrastructure as Code in automating security systems at every stages.  This project focuses on using Terraform to provision and configure a homelab environment on AWS Cloud with AWS services for in-depth investigation and threat hunting. The homelab includes two victim workstations, and one for Blue Team (defending the environment), one for Red Team (simulating attackers). The goal is to simulate cybersecurity scenarios for learning and testing incident detection, response, and remediation techniques.
 
 ## 1.0	Introduction
 As the world becomes increasingly digital, the frequency and sophistication of cyberattacks continue to rise, making it crucial for cybersecurity professionals to stay ahead of emerging threats. In-depth investigation and threat hunting are vital practices for identifying, analyzing, and mitigating potential security incidents within any network or cloud environment. To effectively train and test cybersecurity skills, hands-on experience with real-world scenarios is essential. This project focuses on building a comprehensive cybersecurity home lab that simulates both attack and defense environments using AWS services and Infrastructure as Code (IaC) principles via Terraform.
@@ -77,12 +77,19 @@ The tools required for this project include the following:
 Virtual machine: Windows 10 installed on VirtualBox
 Installation
 •	To install, you will need to follow these steps:
+
 •	AWS Account: Create  AWS Free Tier account with the required resources EC2 (For deploying workstations - Blue Team, Red Team, and victim machines), VPC (For creating isolated networking environments), IAM (AdminFullAccess), Security Groups, key Pair, AWS Command Line Interface (CLI). 
+
 •	(AWS Free Tier Account - https://aws.amazon.com/free/compute/?p=ft&z=subnav&loc=3)
+
 •	create a user with administrator permissions and get its ACCESS KEY and SECRET KEY
+
 •	Switch to eu-west-1 region in your aws console (on the browser)
-•	Go to EC2 --> Instances --> Key Pair and create a key with name ec2_key_pair (All lowercase) and save the .pem key file
+
+•	Go to EC2 --> Instances --> Key Pair and create a key with name ec2_key_pair (All lowercase) and save the .pem key file.
+
 •	Copy your ec2_key_pair.pem file to your C:\Users\<your username>\.ssh folder and rename it to id_rsa
+
 •	AWS Cli installed
 
  
@@ -90,12 +97,18 @@ Installation
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 •	Terraform configuration files downloaded and copied to any folder in %PATH% Environment (Source : https://github.com/Samuel-Adeola/PurpleTeam_Cloud_Lab) 
+
 •	Open the command prompt (cmd) and run aws configure  
+
 •	Provide the ACCESS KEY, SECRET KEY, the region as eu-west-1
-•	Open cmd again, go to the PurpleTeam lab directory (this project folder) and 
-•	run: terraform init and then terraform apply and type "yes"
+
+•	Open cmd again, go to the PurpleTeam lab directory (this project folder)
+•	run: terraform init and then terraform apply --auto-approve
+
 •	This will  40 mins to complete. The Purple team lab will be created in AWS. 
+
 •	To destroy, run terraform destroy --auto-approve
+
 
 Note: Just a reminder, keeping it running will cost you money.
 To change to prefer the region, update the main.tf file and change the region and create an ec2_key_pair in the region you choose as these are not transferrable between regions.
