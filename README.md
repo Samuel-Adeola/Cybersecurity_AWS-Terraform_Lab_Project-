@@ -236,7 +236,8 @@ Steps to install
 Terraform downloaded for Windows from
 
 
-![BlueTeamFig2](https://github.com/user-attachments/assets/a253f29c-1a43-4416-a287-b35e1591dd84)
+
+![Terraform Fig3](https://github.com/user-attachments/assets/22ac50ac-2c48-4b2d-a8ba-243a78caddf8)
 
 
 
