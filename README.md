@@ -1,4 +1,5 @@
 ## Title: Building a Cybersecurity Home Lab for in-depth investigation and threat hunting with AWS Services Using Terraform
+![Terraform Fig12](https://github.com/user-attachments/assets/eb31fcf4-a2d5-49d8-b5d7-9de0a9bc1aaa)
 
 ## 1.0	Background Overview
 The recent development in IT industry has necessitated the use of necessary technology and tool to achieve the result. This is not limited to the use of Infrastructure as Code in automating security systems at every stages.  This project focuses on using Terraform to provision and configure a homelab environment on AWS Cloud with AWS services for in-depth investigation and threat hunting. The homelab includes two victim workstations, and one for Blue Team (defending the environment), one for Red Team (simulating attackers). The goal is to simulate cybersecurity scenarios for learning and testing incident detection, response, and remediation techniques.
