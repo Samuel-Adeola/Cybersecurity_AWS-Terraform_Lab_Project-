@@ -1,8 +1,4 @@
 ## Title: Building a Cybersecurity Home Lab for in-depth investigation and threat hunting with AWS Services Using Terraform
-![Terraform Fig12](https://github.com/user-attachments/assets/eb31fcf4-a2d5-49d8-b5d7-9de0a9bc1aaa)
-
-![AWS Fig2](https://github.com/user-attachments/assets/ddf51d88-06df-49d7-be51-f51280d8a465)
-
 
 ## 1.0	Background Overview
 The recent development in IT industry has necessitated the use of necessary technology and tool to achieve the result. This is not limited to the use of Infrastructure as Code in automating security systems at every stages.  This project focuses on using Terraform to provision and configure a homelab environment on AWS Cloud with AWS services for in-depth investigation and threat hunting. The homelab includes two victim workstations, and one for Blue Team (defending the environment), one for Red Team (simulating attackers). The goal is to simulate cybersecurity scenarios for learning and testing incident detection, response, and remediation techniques.
@@ -111,45 +107,59 @@ To change to prefer the region, update the main.tf file and change the region an
 (AWS Free Tier Account - https://aws.amazon.com/free/compute/?p=ft&z=subnav&loc=3)
 5.1.2 Create AWS Full administrative Access for user in IAM
 
-![AWS Fig2](https://github.com/user-attachments/assets/b2c32ea6-0b2d-4516-86fa-96e1b5aad79e)
+![AWS Fig2](https://github.com/user-attachments/assets/1ea12618-d1ac-4683-9489-035293f3f6f2)
 
 
-![AWS Fig5](https://github.com/user-attachments/assets/44b607df-3cae-4bfe-b805-d3fd7c13ca53)
+![AWS Fig5](https://github.com/user-attachments/assets/165fc6f8-d645-4e9e-b1f9-05de61bd06e8)
+
 
 
 To create Access Key:
 
-![AWS Fig8](https://github.com/user-attachments/assets/bdcba978-6df5-4a7e-87d7-bb833e1f8e52)
+![AWS Fig8](https://github.com/user-attachments/assets/3dbf7c90-afe8-4ea7-9dea-dc4eaa9955ee)
 
- 
-![AWS Fig9](https://github.com/user-attachments/assets/d6627535-432b-4e4f-8981-15956af55843)
+
+ ![AWS Fig9](https://github.com/user-attachments/assets/2a7c334d-f90f-4742-88cd-9d6f1de8af5e)
+
+
 
 Access key and Secret access key created. These keys should be save and will be used in the future:
 
-![AWS Fig11](https://github.com/user-attachments/assets/ca353416-1dbc-407c-b61c-0959d0c033cd)
+
+
+![AWS Fig11](https://github.com/user-attachments/assets/08826404-ebc1-43ff-bbd1-b2e2965dabdd)
 
 
 
-![AWS Fig12](https://github.com/user-attachments/assets/b40c1c38-5ded-4898-8e75-b77a68b4509c)
+![AWS Fig12](https://github.com/user-attachments/assets/519aec59-8095-459b-b772-c0bb0cf0c7e3)
+
+
+
 
 5.1.3	Create Key pair
 Search for ec2. On the dashboard, select Keypair under the Resources
 
-![AWS Fig13](https://github.com/user-attachments/assets/6f81757b-728e-459a-8e7a-d3f7cb2f7e27)
+
+
+![AWS Fig13](https://github.com/user-attachments/assets/1a407edb-e244-459c-831c-3cf47d532d45)
 
 
 
-![AWS Fig15](https://github.com/user-attachments/assets/4b7ff9a0-959f-4708-aeaa-1d633e1e3e29)
+![AWS Fig15](https://github.com/user-attachments/assets/638eb070-17af-4fd1-8889-de8c7295cf2a)
 
-Keypair – ec2_key_pair created in the folder Downloads. Select the Downloads:
 
-![AWS Fig17](https://github.com/user-attachments/assets/c1b60dff-c3e3-47c3-b55c-cacd66427f84)
+
+Keypair – ec2_key_pair was created in the Downloads folder. Select the Downloads:
+
+![AWS Fig17](https://github.com/user-attachments/assets/8eb0fe0a-2f09-430e-a090-e4d653a5938a)
+
 
 
 Created a folder named “.ssh” in C:\Users\samar
 
-![AWS Fig18](https://github.com/user-attachments/assets/ce821717-adbc-4cf8-8d17-f74b16e7d2c3)
 
+
+![AWS Fig18](https://github.com/user-attachments/assets/83adabf1-7211-44d6-b8ba-677b2570162a)
 
  
 
@@ -157,19 +167,22 @@ Created a folder named “.ssh” in C:\Users\samar
 
 Save the Key – ec2_key_pair in .ssh folder 
 
-![AWS Fig19](https://github.com/user-attachments/assets/34eb840f-8e35-4cee-9043-7f35652c9ccc)
+![AWS Fig19](https://github.com/user-attachments/assets/f6c2e7ca-c6f6-4665-a1a3-61a0274424e7)
+
+
 
 Rename the “ec2_key_pair” to id.rsa
 
-![AWS Fig20](https://github.com/user-attachments/assets/e927e44b-0db3-4ad5-9361-0a2034717d95)
+
+![AWS Fig20](https://github.com/user-attachments/assets/09298669-6913-40a1-9d34-45d10ef814d1)
 
 
 5.1.3 – Installing AWS Command Line Interface
 Browse 
 Scroll down to Windows  and copy the command:
 
-![AWS Fig21](https://github.com/user-attachments/assets/df85b595-7926-4fa9-b220-46683b6ac2d2)
 
+![AWS Fig22](https://github.com/user-attachments/assets/d617f5f1-48e1-4f25-8819-ff8318aa3ad8)
 
 
 Paste the command in the CMD
